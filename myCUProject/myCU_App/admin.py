@@ -2,6 +2,8 @@ from django.contrib import admin
 
 # Register your models here.
 
-from .models import MyModelTest
+from .models import User, Message, NewProject, Image, Tag
 
-admin.site.register(MyModelTest)
+
+admin_models = [User, Message, NewProject, Image, Tag]
+admin.site.register(admin_models)
