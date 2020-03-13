@@ -9,3 +9,5 @@ urlpatterns = [
     path('api/', include('myCU_App.api.urls')),
     # path('', home_view, name = 'home'), 
 ]
+
+# I really want to test this works.
