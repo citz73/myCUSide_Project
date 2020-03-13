@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HomeHeader from './home-header.js';
 
 /*const SignupField {
     return (
@@ -25,9 +26,24 @@ class SignupForm extends Component {
 
     render() {
         return (
-            <React.Fragment>
-                <button className="button-login-signup">Sign Up</button>
-            </React.Fragment>
+            <div className="App">
+                <HomeHeader />
+                <span>CU Email</span>
+                <input type="text" />
+                <br/>
+                <span>First Name</span>
+                <input type="text" />
+                <br/>
+                <span>Last Name</span>
+                <input type="text" />
+                <br/>
+                <span>New Password</span>
+                <input type="password" />
+                <br/>
+                <span>Confirm Password</span>
+                <input type="password" />
+                <br/>
+            </div>
         );
     }
 }

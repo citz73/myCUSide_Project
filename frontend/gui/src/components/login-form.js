@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HomeHeader from './home-header.js';
 
 /*function LoginField() {
     return (
@@ -13,15 +14,24 @@ import React, { Component } from 'react';
 }*/
 
 class LoginForm extends Component {
-    state = {
-        
+    store = {
+       credentials: {
+           cu_email: '',
+           password: ''
+       } 
     }
 
     render() {
         return (
-            <React.Fragment>
-                <button className="button-login-signup">Login</button>
-            </React.Fragment>
+            <div className="App">
+                <HomeHeader />
+                <span>CU Email</span>
+                <input type="text" />
+                <br/>
+                <span>Password</span>
+                <input type="password" />
+                <br/>
+            </div>
         )
     }
 }

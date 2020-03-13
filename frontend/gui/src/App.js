@@ -8,12 +8,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <HomeHeader />
-          <LoginForm />
-          <br/>
-          <SignupForm />
-        </header>
+        <HomeHeader/>
+        <br/><br/><br/><br/>
+        <button className="button-login-signup" onClick={() => LoginForm}>Login</button>
+        <br/><br/><br/>
+        <button className="button-login-signup">Signup</button>
       </div>
     );
   }
