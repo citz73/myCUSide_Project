@@ -1,8 +1,8 @@
 from rest_framework import serializers
+from myCU_App.models import NewProject
 
-from articles.models import Article
-
-class ArticleSerializer(serializers.ModelSerializer):
+class NewProjectSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Article
-        fields = ('title', 'content')
+        model = NewProject
+        fields = ('id', 'project_name', 'project_member', 'project_detail')
+

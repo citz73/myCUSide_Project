@@ -1,12 +1,7 @@
-from rest_framework.generics import ListAPIView
+from rest_framework import viewsets
+from myCU_App.models import NewProject
+from. serializers import NewProjectSerializer
 
-from articles.models import Article
-from .serializers import ArticleSerializer
-
-class ArticleListView(ListAPIView):
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
-
-class ArticleDetailView(RetrieveAPIView):
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
+class NewProjectSet(viewsets.ModelViewSet):
+    queryset = NewProject.objects.all()
+    serializer_class = NewProjectSerializer
