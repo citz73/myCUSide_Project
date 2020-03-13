@@ -6,4 +6,4 @@ class NewProjectSerializer(serializers.ModelSerializer):
         model = NewProject
         fields = ('id', 'project_name', 'project_member', 'project_detail')
 
-# I believe this is going to work 
+class Test()
