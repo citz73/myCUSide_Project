@@ -34,6 +34,8 @@ class Image(models.Model):
     image_name = models.CharField(max_length = 100)
     image_details = models.CharField(max_length = 150)
 
+#test
+
 class Tag(models.Model):
 
     def __str__(self):
