@@ -6,5 +6,4 @@ class NewProjectSerializer(serializers.ModelSerializer):
         model = NewProject
         fields = ('id', 'project_name', 'project_member', 'project_detail')
 
-
-# I am testing branch2
+# I believe this is going to work 
