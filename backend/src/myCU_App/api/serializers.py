@@ -6,4 +6,5 @@ class NewProjectSerializer(serializers.ModelSerializer):
         model = NewProject
         fields = ('id', 'project_name', 'project_member', 'project_detail')
 
-#test - try to test out example - now try again 
+
+# I am testing branch2
