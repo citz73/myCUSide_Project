@@ -23,3 +23,26 @@
     font-size: calc(10px + 2vmin);
     color: black;
 }
+
+.home-header {
+  display: grid;
+  grid-template:
+    "a b" 50px
+    "a c" 50px;
+  grid-template-columns: 500px 500px;
+}
+
+.button-login-signup {
+  background-color: #A2A4A3;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button-login-signup:hover {
+  background-color: #565A5C;
+  color: white;
+}

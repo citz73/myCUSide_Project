@@ -1,13 +1,29 @@
 import React, { Component } from 'react';
 
-class LoginForm extends Component {
+/*function LoginField() {
     return (
         <React.Fragment>
-            <span>Title</span>
+            <span>CU Email</span>
             <input type="text" />
-            <span>Description</span>
+            <span>Password</span>
+            <input type="password" />
+            <br/>
         </React.Fragment>
     )
+}*/
+
+class LoginForm extends Component {
+    state = {
+        
+    }
+
+    render() {
+        return (
+            <React.Fragment>
+                <button className="button-login-signup">Login</button>
+            </React.Fragment>
+        )
+    }
 }
 
 export default LoginForm;
