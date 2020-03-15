@@ -52,9 +52,9 @@ User testing: At this point, the user will be able to see the landing page, and 
 This goal seems reasonable for where we are at to this point. It should not be a problem achieving this goal.
  
 1) Frontend screenshots: 
-![Homepage](Homepage.jpg)
-![Login](Login.jpg)
-![Signup](Signup.jpg)
+![Homepage](Homepage.JPG)
+![Login](Login.JPG)
+![Signup](Signup.JPG)
  
  
  
